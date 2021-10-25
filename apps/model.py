@@ -4,6 +4,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
+from plotly import graph_objs as go
 import seaborn as sns
 import pandas as pd
 from functools import reduce
